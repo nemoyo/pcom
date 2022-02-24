@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* 画面の真ん中にformを配置する */
+html{
+  height: 100%;
+}
+
+/* 画面の真ん中にformを配置する */
+body{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* 入力フォームの幅を指定 */
+form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  box-sizing: border-box;
+  /* margin: auto; */
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+/* ボタンの大きさや幅を指定 */
+.btn {
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+  cursor:pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-large {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+.btn-block{
+  display: block;
+  width: 100%;
+}
+
+/* テキスト入力を指定 */
+.input{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  box-sizing: border-box;
+}
+.above {
+  margin-bottom: -1px;
+}
+.below {
+  margin-bottom: 10px;
+}
+
+.alert{
+  color: red;
+}
+
+ul {
+  list-style: none;
+}

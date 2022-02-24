@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* 全画面共通 */
+:focus {
+  outline: none;
+}
+
+body {
+  background-color: #ECF0F5;
+  font-size: 100%;
+  line-height: 1.7;
+  box-sizing: border-box;
+}
+
+.main {
+  /* margin: 10em; */
+  /* width: 70%; */
+  border: black solid 1px;
+}
+.header-information {
+  /* padding: 1em; */
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border: black solid 1px;
+}
+
+.YearMonthInformation{
+  margin: 1em;
+  padding: 0.5em;
+  background-color: #FFFFFF;
+  /* width: 50%; */
+}
+
+.inputInformation {
+  margin: 1em;
+  padding: 0.5em;
+  background-color: #FFFFFF;
+}
+
+#add-list {
+  display: inline-block;
+}
+
+/* バリデーション */
+.has-error > label {
+  color: red;
+}
+.has-error > input {
+  border: 2px solid red;
+}
+.has-error > span {
+  color: red;
+}
+
+/* .input-invalid {
+  border: 2px solid red;
+}
+
+#err-msg-ask-year {
+  display: none;
+}
+#err-msg-ask-month {
+  display: none;
+} */
+
+/* labelとinputの枠と文字の色を赤字にする */
+
+/* イベント */
+#add-list:hover {
+  cursor: pointer;
+}
